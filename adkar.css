@@ -1,0 +1,117 @@
+*{margin: 0;}
+body{background-color: rgba(0,0,0,.8);}
+#main{display: inline-block;width: 100%;}
+
+#h_m{
+    width: 100%;
+    background-color: rgb(244, 193, 80);
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+#p_h_m{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+#div{
+    width: 100%;
+    text-align: center;
+    line-height: 200px;
+    height: 300px;
+}
+#p_larg{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 5px;
+}
+#pp_pp{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 5px;
+}
+#nav{
+    width: 100%;
+    text-align: center;
+}
+#i_nav{
+    height: 150px;
+    margin: 20px 0px;
+}
+#aside{
+    width: 100%;
+    direction: rtl;
+   
+}
+#i_a{
+    height: 100px;
+    margin: 100px;
+    
+}
+#footer{
+    width: 100%;
+    height: 300px;
+    background-color: #1f1e1e;
+    border-top: 2px solid #000000;
+}
+#a1,#a2,#a3{
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+}
+#p_s{
+    font-size: 15px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    color: #ffffff73;
+}
+
+.p_aa2{
+    font-size: 20px;
+    margin: 0px 40px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    color: #ffffff73;}
+#a1,#a2{text-align: right;}
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {}
+
+
+
+
+
+@media only screen and (min-width: 900px) and (max-width: 1010px) {}
+
+ 
+
+
+
+    
+@media only screen and (min-width: 600px) and (max-width: 910px) {}
+
+
+    
+
+
+
+
+
+
+    @media only screen and (min-width: 10px) and (max-width: 602px) {
+        #div{
+            height: auto;
+        }
+        #p_s{
+            visibility: ;
+        }
+    }
+
+
+
+
+
