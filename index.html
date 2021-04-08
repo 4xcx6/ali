@@ -1,37 +1,278 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="adkar.css">
-    </head>
-    <body onkeyup="event_key(event)">
-        <main id="main">
-            <header id="h_m">
-                <p id="p_h_m">Web developer Ali Ahmed</p>
-            </header>
-            <nav id="nav"><img src="logo.svg" id="i_nav"></nav>
-            <div id="div">
-                <p id="p_larg">الموقع الرسمي لمطور الواجهات الامامية للويب وتطبيقات الاندرويد</p>
-                <p id="pp_pp">هدفي في الحياة هو الوصول للقمة والأحتراف</p>
-            </div>
+<head><link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap" rel="stylesheet">
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
 
-            <aside id="aside"><a href="adkar.html"><img src="next2.svg" id="i_a"></a></aside>
-            
-            <footer id="footer">
-                <aside id="a1">
-                <a href=""><p class="p_aa2">الخصوصية</p></a>
-                </aside>
-                <aside id="a2"> 
-                    <a href=""><p class="p_aa2">أتصل بنا</p></a>
-                </aside>
-                <aside id="a3">
-                    <p id="p_s">جميع الحقوق محفوظة لدى موقعنا</p>
-                </aside>
-            </footer>
-        </main>
+<style>
+*{padding: 0;margin: 0;}
+header{
+height: 100px;
+width: 100%;
+background-image: linear-gradient(to left,red,orange);
+}
+#sp{
+
+width: 30%;
+height: 100%;
+float:right;
+background-color: aliceblue;
+line-height: 100px;
+padding-left: 15px;
+}
+#ppp{
+float: left;
+margin-right: 15px;
+}
+#aqq{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+
+}
+nav a{
+text-decoration:none;
+color: white;
+font-weight: bold;
+display: inline-block;
+
+}
+nav a:hover{
+background-color: white;
+color: black;
+height: 100%;
+width: 100%;
 
 
-<script src="adkar.js"></script>
-    </body>
+}
+nav li{
+    display: inline-block;
+    line-height: 100px;
+    width: 100px;
+    text-align: center;
+    
+}
+nav{
+width: 70%;
+text-align: center;
+
+}
+main{
+width: 100%;
+height: 450px;
+background-color: #f18500;
+border-top: 3px solid white;
+
+}
+aside{
+width: 30%;
+height: 100%;
+background-color: white;
+text-align: center; 
+float: left;
+
+}
+#aq{
+
+width: 90%;
+}
+#pp{
+padding: 20px;
+border-bottom: 3px solid red;
+
+}
+#ar{
+width: 70%;
+
+height: 450px;
+float:right;
+position: relative;
+}
+#box{
+    text-align: center;
+  
+width: 400px;
+height: 180px;
+position: absolute;
+background-color: #e4b876;
+top: 50%;
+left: 50%;
+transform:translate(-50%,-50%)
+}
+#box h1{
+border-bottom: 3px solid red;
+padding:15px 0px;
+font-family: 'Markazi Text', serif;
+
+}
+#pppp{
+    font-family: 'Markazi Text', serif;
+
+}
+#dddd{
+  
+  width: 100%;
+  display:flex;
+  justify-content: center;
+}
+#dddd img{
+width: 45px;
+margin-top: 15px;
+border-bottom: 2px double red;
+padding-left: 10px;
+padding-bottom: 10px;
+transition: 0.3s;
+}
+#dddd img:hover{
+width: 55px;
+border-bottom: 2px double black;
+
+}
+@media all {
+    
+}
+@media only screen and (min-width: 800px) and (max-width: 900px) {
+    
+    #sp{
+        width: 35%;
+    }
+    
+}
+
+
+@media only screen and (min-width: 700px) and (max-width: 800px) {
+    
+    #sp{
+        width: 40%;
+    }
+    
+#ar{
+    width: 60%;
+}
+aside{
+    width: 40%;
+}
+
+}
+
+
+@media only all and (max-width: 700px) {
+
+
+nav li{
+display: block;
+
+}
+nav li{
+    width: 100%;
+    text-align: center;
+}
+
+#ar{
+
+    height: 230px;
+    text-align:center;
+    width: 100%;
+    
+}
+
+
+aside{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    text-align: center;
+}
+
+
+    #sp{
+        width: 100%;
+        
+    }
+   header,main{
+       height: auto;
+       text-align: center;
+   } 
+
+#aqq,#ppp{
+float: none;
+
+}
+#aqq{
+width: 200px;
+height: 200px;
+display: none;
+}
+}
+
+#foo{
+width: 100%;
+height: 200px;
+background-color: blue;
+
+}
+
+</style>
+</head>
+<body>
+
+
+<header>
+
+
+ <span id="sp">
+     
+
+    
+    <h1 id="ppp">Ali Ahmed</h1>
+ </span>   
+
+<nav>
+<ul>
+    <li>
+        <a href="">الصفحة الرئيسية</a>
+    </li>
+
+    <li>
+        <a href="">قناتنا</a>
+    </li>
+
+    <li>
+        <a href="">الانستغرام</a>
+    </li>
+
+</ul>
+
+</nav>
+</header>
+<main>
+<aside>
+    <img id="aq" src="https://firebasestorage.googleapis.com/v0/b/chat12312377.appspot.com/o/fim%2F20201004_222331.jpg?alt=media&token=20d376c4-f6c2-4e70-babe-baea8336526e" alt="" />
+    <h1 id="pp">Ali Ahmed</h1>
+    <div id="dddd">
+<a href=""><img src="data:image/png;base64,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"></a>
+<a href=""><img src="data:image/png;base64,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"></a>
+<a href=""><img src="data:image/png;base64,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"></a>
+<a href=""><img src="data:image/png;base64,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"></a>
+    
+
+
+
+</div>
+</aside>
+<article id="ar">
+<div id="box">
+<h1>انا احب البرمجة</h1>
+<p id="pppp">انا مبتدئ حاليا في البرمجة لكني ذو عزيمة قوية</p>
+
+</div>
+</article>
+
+</main>
+
+
+
+</body>
 </html>
