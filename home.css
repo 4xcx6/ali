@@ -85,3 +85,47 @@
     line-height: 60px;
     font-size: 20pxO;
 }
+
+@media only screen and (min-width: 100px) and (max-width: 700px) {
+
+
+
+    
+#name,#email,#password1,#password2{
+    margin: 10px;
+    border-radius: 15px;
+    border: 2px solid rgb(10, 59, 47);
+    width: 350px;
+    height: 20px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: aquamarine;
+}
+#b1,#b2{
+    
+    width: 125px;
+    margin: 10px;
+    height: 30px;
+    font-size: 20px;
+    padding: 0;
+    line-height: 30px;
+    border-radius: 8px;
+    border: 2px solid rgb(10, 59, 47);
+    background-color: rgb(45, 116, 207);
+    color: white;
+    font-family: 'Markazi Text', serif;
+    margin-top: 40px;
+}
+#p2{
+    font-size: 20px;
+}
+#p1{
+    font-size:25px;
+}
+#p_home{
+    font-size: 30px;
+}
+
+
+
+}
